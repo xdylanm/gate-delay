@@ -1,0 +1,6 @@
+Test Cases
+
+1. test_timer: test overflow and interval behaviour (out of date)
+2. test_adc_to_delay: test ADC value conversion to delay in ticks (writes .csv)
+
+To build, run make test. To clean, run make clean.
