@@ -1,0 +1,5 @@
+mkdocs-include-markdown-plugin
+mkdocs-jupyter
+numpy
+matplotlib
+mkdocs-material

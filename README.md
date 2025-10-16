@@ -1,5 +1,4 @@
-Dual Gate Delay
-========================
+# Dual Gate Delay
 
 A dual gate delay module in the Eurorack format. The module is implemented with an ATTiny13a microcontroller, with features including
 
