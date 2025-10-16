@@ -11,6 +11,8 @@ A dual gate delay module in the Eurorack format.
 
 ## Features
 
+![Gate Delay v1 PCB](assets/images/gate-delay-1sm.jpg){align=right}
+
 The module is implemented with an ATTiny13a microcontroller, with features including
 
 * delays ranging from about 8ms to 2s
