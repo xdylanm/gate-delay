@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Dual Gate Delay")
-		(date "2025-09-17")
-		(rev "1.0")
+		(date "2025-10-18")
+		(rev "1.1")
 		(company "idyllm")
 		(comment 1 "CC BY-SA 4.0")
 	)
@@ -2767,7 +2767,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC547"
+		(symbol "Transistor_BJT:BC847"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2784,7 +2784,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC547"
+			(property "Value" "BC847"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2793,7 +2793,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2804,7 +2804,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2814,7 +2814,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2823,7 +2823,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "NPN Small Signal Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2832,7 +2832,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2841,7 +2841,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC547_0_1"
+			(symbol "BC847_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -2878,7 +2878,7 @@
 					)
 				)
 			)
-			(symbol "BC547_1_1"
+			(symbol "BC847_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2925,7 +2925,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2943,7 +2943,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2961,7 +2961,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5854,6 +5854,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 101.6 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03f508d2-a962-4fb7-a6bb-264c605b07a6")
+		(property "Reference" "Q2"
+			(at 96.52 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 96.52 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 96.52 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "648a9689-9097-4849-bb3a-e0ed6c38b7d3")
+		)
+		(pin "1"
+			(uuid "8e5fd4b8-ad2a-497c-9ebc-978514903858")
+		)
+		(pin "3"
+			(uuid "7fa4e2fc-3f18-4d95-b466-103fe24d13b8")
+		)
+		(instances
+			(project ""
+				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 113.03 134.62 270)
 		(unit 1)
@@ -6891,7 +6968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 89.154 171.704 90)
 			(effects
 				(font
@@ -6959,7 +7036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 89.154 181.864 90)
 			(effects
 				(font
@@ -7133,83 +7210,6 @@
 			(project "dual-gate-delay"
 				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 101.6 64.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3781f826-b1e3-41a5-8e0d-1b51ee11088f")
-		(property "Reference" "Q1"
-			(at 96.52 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 96.52 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 96.52 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "86e41903-6cae-401f-a6b7-b5a219e37428")
-		)
-		(pin "1"
-			(uuid "3c6c1ff5-9591-4539-a700-aecad33a7505")
-		)
-		(pin "2"
-			(uuid "6ff35046-32e5-4ec2-a831-4d9d5c6b41bf")
-		)
-		(instances
-			(project "dual-gate-delay"
-				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7513,6 +7513,83 @@
 			(project "dual-gate-delay"
 				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 101.6 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f041d22-1ac8-40d5-a5ba-f7fcd09d80fa")
+		(property "Reference" "Q1"
+			(at 96.52 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 96.52 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 96.52 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "648a9689-9097-4849-bb3a-e0ed6c38b7d3")
+		)
+		(pin "1"
+			(uuid "8e5fd4b8-ad2a-497c-9ebc-978514903858")
+		)
+		(pin "3"
+			(uuid "7fa4e2fc-3f18-4d95-b466-103fe24d13b8")
+		)
+		(instances
+			(project ""
+				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12451,83 +12528,6 @@
 			(project "dual-gate-delay"
 				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 101.6 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3c5557e-e0e0-47a0-af91-975bf4e63c84")
-		(property "Reference" "Q2"
-			(at 96.52 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 96.52 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 96.52 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 101.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 101.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a7f0f543-7157-4a0f-9c64-644f6d2dfee9")
-		)
-		(pin "1"
-			(uuid "f62becd7-42b9-468a-ac01-9a2f966dd21e")
-		)
-		(pin "2"
-			(uuid "a910912c-8dff-427f-8957-433869bcbe26")
-		)
-		(instances
-			(project "dual-gate-delay"
-				(path "/37f03a04-246d-4755-9a59-ecba12d4b238"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
