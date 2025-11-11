@@ -1,21 +1,22 @@
-| Reference             | Qty | Value               | Footprint                                                         |
-| --------------------- | --- | ------------------- | ----------------------------------------------------------------- |
-| C1,C2,C4,C5,C6,C8     | 6   | 100n                | 0805                                   |
-| C3,C7                 | 2   | 10u                 | D5.0mm, P2.50mm                            |
-| D1,D2,D4,D5,D7,D8     | 6   | B140Q-13-F          | SMA                                     |
-| D3,D6                 | 2   | LED                 | 3.0mm LED                                                |
-| D9,D10                | 2   | LED                 | 0805             |
-| J1,J2,J3,J5,J6,J7     | 6   | WQP-PJ323M          | WQP-PJ323M                |
-| J4,J8                 | 2   | 02x03               | Pin Header 02x03 P2.54mm        |
-| J9                    | 1   | 10pin IDC           | IDC Header 02x05 P2.54mm Horizontal                  |
-| Q1,Q2                 | 2   | BC547               | TO-92                              |
-| R1,R8                 | 2   | 120k                | 0805          |
-| R2,R3,R9,R10          | 4   | 1k                  | 0805          |
-| R4,R6,R11,R14,R17,R18 | 6   | 4k7                 | 0805          |
-| R5,R7,R12,R13         | 4   | 100k                | 0805          |
-| R15,R16               | 2   | 10R                 | DIN0207 THT    |
-| R19,R20               | 2   | 10k                 | 0805          |
-| RV1,RV2               | 2   | RV09 B100k          | PTV09A |
-| U1                    | 1   | TL074               | SOIC-14 (3.9x8.7mm, P1.27mm)                              |
-| U2,U3                 | 2   | ATtiny13A-S         | SOIC-8 (3.9x4.9mm, P1.27mm)                               |
-| U4                    | 1   | AMS1117-5.0         | SOT-223-3                              |
+| Reference             | Qty | Value       | Footprint                |
+| --------------------- | --- | ----------- | ------------------------ |
+| C1,C5,C6,C7,C8        | 5   | 100n        | 0805                     |
+| C2                    | 1   | 10n         | 0805                     |
+| C3,C4                 | 2   | 10u         | Radial D5.0mm P2.50mm    |
+| D1                    | 1   | Red LED     | 0805                     |
+| D2,D3,D6,D7           | 4   | B140Q-13-F  | SMA                      |
+| D4,D5                 | 2   | Red LED 3mm | LED D3.0mm               |
+| J1,J2,J3,J4           | 4   | WQP-PJ323M  | WQP-PJ323M               |
+| J5                    | 1   | Pin header  | 02x03 P2.54mm Vertical   |
+| J6                    | 1   | IDC header  | 02x05 P2.54mm Horizontal |
+| Q1,Q2,Q3              | 3   | BC847       | SOT-23                   |
+| R1,R11,R17            | 3   | 4k7         | 0805                     |
+| R2,R13,R14,R16,R19    | 5   | 10k         | 0805                     |
+| R3,R4,R6,R7,R8,R9,R10 | 7   | 100k        | 0805                     |
+| R5,R12,R18            | 3   | 1k          | 0805                     |
+| R15                   | 1   | 150k        | 0805                     |
+| R20,R21               | 2   | 10R         | 0805                     |
+| RV1,RV2               | 2   | B100k       | Bourns PTV09A Horizontal |
+| U1                    | 1   | ATtiny13A-S | SOIC-8 3.9x4.9mm         |
+| U2                    | 1   | TL074       | SOIC-14 3.9x8.7mm        |
+| U3                    | 1   | AMS1117-5.0 | SOT-223-3                |
