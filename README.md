@@ -1,6 +1,6 @@
-# Dual Gate Delay
+# Gate Delay
 
-A dual gate delay module in the Eurorack format. The module is implemented with an ATTiny13a microcontroller, with features including
+A gate delay module in the Eurorack format. The module is implemented with an ATTiny13a microcontroller, with features including
 
 * delays ranging from about 8ms to 2s
 * gate pulse length is maintined
