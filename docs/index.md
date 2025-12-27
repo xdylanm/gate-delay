@@ -11,16 +11,16 @@ A gate delay module in the Eurorack format.
 
 ## Features
 
-![Gate Delay v1 PCB](assets/images/gate-delay-1sm.jpg){align=right}
+![Gate Delay v2 PCB](assets/images/ic-gate-delay.jpg){: width="360", align=right}
 
 The module is implemented with an ATTiny13a microcontroller, with features including
 
-* delays ranging from about 8ms to 2s
+* delays ranging from about 8ms to 2s (CV and offset potentiometer inputs)
 * gate pulse length is maintained
 * sequences of up to 4 pulses can be delayed
 * pulse and 1ms trigger outputs at 5V
 
-A second, fully analog design is also described. This design is based on a current mirror and integration capacitor, and also maintains the gate pulse length. I have not implemented and tested this one.
+A second, fully analog design is also described. This design is based on a current mirror and integration capacitor, and also maintains the gate pulse length. I have not implemented or tested this one.
 
 ## Documentation
 
